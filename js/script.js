@@ -16,9 +16,9 @@ async function start() {
   console.timeEnd('Promise');
 
   //Promise Paralela
-  const p1 = promiseUsers();
-  const p2 = promiseCountries();
-  await Promise.all([p1, p2]);
+  // const p1 = promiseUsers();
+  // const p2 = promiseCountries();
+  // await Promise.all([p1, p2]);
 
   hidespinners();
   mergeUsersAndCountries();
